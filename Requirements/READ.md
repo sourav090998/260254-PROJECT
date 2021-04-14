@@ -17,24 +17,23 @@
 # 4W&#39;s and 1&#39;H
 ## Who:
 
-* Person involved in circuit related projects and daily basis circuit problems.
+* Person working with electronics circuit.
 
 ## What:
 
-* While making the large electronic circuits, it is nessesary to use required value of resistor but it becomes a tedious and time consuming task to find the resistance of any random resistor.
+* This code will be used to detect the value of the resistor and also calculate the combination value of the resistors
 
 ## When:
 
-* Always while using the resistor in the electronic circuits.
+* 1.Anytime a resistor value is depicted from the color Code.
+* 2.Anytime a combination of resistor needs to be solved. 
 
 ## Where:
 
-* This problem is always expected in resistor based electronic circuits.
-
+* In any application of Electgronics where the resistor is used and values are calculated.
 ## How:
 
-* This issue may cause the error in the electronic circuits and hence there can be huge wastage of time and it may also cause problem in other components attached in the circuit.
-
+* This helps the user to get the value of the resistor at the fingertips by using simple menu driven programs.
 # Detail requirements
 ## High Level Requirements:
 --- TBD in Tabular Format 
