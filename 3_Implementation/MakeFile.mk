@@ -1,14 +1,14 @@
-a.out: hello
+CC=g++
+
+CFLAG= -c -Wall
+
+all: hello
 
 hello: main.o rescal.o 
-	gcc main.o rescal.o -o hello
+	$(CC) $(CFLAGS) main.c
 	
-main.o:  main.c
-	gcc -c main.c
-	 
 rescal.o: rescal.c
-	gcc -c rescal.c
+	$(CC) $(CFLAGS) rescal.c
 	
 clean:
 	rm - rf *o hello
-
