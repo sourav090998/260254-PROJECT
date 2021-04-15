@@ -12,7 +12,7 @@ float codeOne;
 float codeTwo;
 float codeThree;
 float codeFour;
-int r1,r2;
+double r1,r2;
 
 //functions
 void greeting();
@@ -31,15 +31,26 @@ void calculateThree();
 void calculateFour();
 
 //program start
-int main(void)
+void main()
 {
   menu();
 
   if(menusel==1)
   {
 	getBands();
+	if(bandChoice==3)
+	{
+		threeBands();
+		calculateThree();
+	}
+	else
+	{
+		fourBands();
+		calculateFour();
+	}
+	
   }
-  if(menusel==2)
+  else if(menusel==2)
   {
   	serpal();
   }
@@ -50,13 +61,6 @@ int main(void)
 }
 
 
-
-void greeting()
-{
-  printf("\nWelcome to the Resistor Color Code Calculator!");
-  printf("\nWritten By: Cory Harkins");
-  printf("\nECET 3710 || Fall 2014");
-}
 
 void getBands()
 {
@@ -93,42 +97,6 @@ void fourBands()
 
 }
 
-/*void lowerfyThree()
-{
-  for(int i=0; colorOne[i]; i++)
-	{
-		colorOne[i] = tolower(colorOne[i]);
-	}
-  for(int i=0; colorTwo[i]; i++)
-	{
-		colorTwo[i] = tolower(colorTwo[i]);
-	}
-  for(int i=0; colorThree[i]; i++)
-	{
-		colorThree[i] = tolower(colorThree[i]);
-	}
-}
-
-void lowerfyFour()
-{
-  for(int i=0; colorOne[i]; i++)
-	{
-		colorOne[i] = tolower(colorOne[i]);
-	}
-  for(int i=0; colorTwo[i]; i++)
-	{
-		colorTwo[i] = tolower(colorTwo[i]);
-	}
-  for(int i=0; colorThree[i]; i++)
-	{
-		colorThree[i] = tolower(colorThree[i]);
-	}
-  for(int i=0; colorFour[i]; i++)
-	{
-		colorFour[i] = tolower(colorFour[i]);
-	}
-}*/
-
 void calculateThree()
 {
 	printf("The resistor is %d%dx10^%d Ohm",colorOne-1,colorTwo-1,colorThree-1);
@@ -152,7 +120,7 @@ void serpal()
 	{
 		sercal();
 	}
-	if(serpalsel==2)
+	else if(serpalsel==2)
 	{
 		paracal();
 	}
@@ -165,17 +133,17 @@ void serpal()
 void sercal()
 {
 	printf("Enter the value of 1st resistor in Ohm\n");
-	scanf("%d",&r1);
+	scanf("%lf",&r1);
 	printf("\nEnter the value of 1st resistor in Ohm\n");
-	scanf("%d",&r2);
-	printf("The net resistance is %d Ohms",(r1+r2));
+	scanf("%lf",&r2);
+	printf("The net resistance is %lf Ohms",(r1+r2));
 }
 
 void paracal()
 {
 	printf("Enter the value of 1st resistor in Ohm\n");
-	scanf("%d",&r1);
+	scanf("%lf",&r1);
 	printf("\nEnter the value of 1st resistor in Ohm\n");
-	scanf("%d",&r2);
-	printf("The net resistance is %d Ohms",(1/((1/r1)+(1/r2))));
+	scanf("%lf",&r2);
+	printf("The net resistance is %lf Ohms",(1/((1/r1)+(1/r2))));
 }
