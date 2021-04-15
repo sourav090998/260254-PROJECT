@@ -11,6 +11,8 @@
 * 
 ## Defining Our System
     -- TBD 
+## Flow Chart   
+![FLOW CHART](https://github.com/sourav090998/260254-PROJECT/blob/e5cfef1580c96ef8358a262bfaa4e535201b43a5/Requirements/flowchart.png)
 ## SWOT ANALYSIS
 ![SWOT Analysis](https://github.com/280439/stepInproject/blob/main/1_Requirements/swot.png)
 
