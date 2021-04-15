@@ -40,6 +40,7 @@
 ## High Level Requirements:
 
 |ID |Description |Status (Implemented/Future) |
+|--- |--- |--- |
 |HR01 |MENU DRIVEN PROGRAM |Implemented |
 |HR02 |CALCULATE 3 COLOR BAND |Implemented |
 |HR03 |CALCULATE 4 COLOR BAND |Implemented |
