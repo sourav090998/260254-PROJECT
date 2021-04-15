@@ -38,13 +38,12 @@
 * This helps the user to get the value of the resistor at the fingertips by using simple menu driven programs.
 # Detail requirements
 ## High Level Requirements:
---- TBD in Tabular Format 
--- ID | Description | Status (Implemented/Future)
---HR01 | MENU DRIVEN PROGRAM | Implemented |
---HR02 | CALCULATE 3 COLOR BAND | Implemented |
---HR03 | CALCULATE 4 COLOR BAND | Implemented |
---HR04 | CALCULATE SERIES RESISTANCE | Implemented |
---HR05 | CALCULATE PARALLEL RESISTANCE | Implemented |
+|ID | Description | Status (Implemented/Future)
+|HR01 | MENU DRIVEN PROGRAM | Implemented |
+|HR02 | CALCULATE 3 COLOR BAND | Implemented |
+|HR03 | CALCULATE 4 COLOR BAND | Implemented |
+|HR04 | CALCULATE SERIES RESISTANCE | Implemented |
+|HR05 | CALCULATE PARALLEL RESISTANCE | Implemented |
 
 
 ##  Low level Requirements:
