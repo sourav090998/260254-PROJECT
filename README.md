@@ -11,9 +11,15 @@ Resistors can have 3, 4, 5 or 6 color bands printed on them. The first 3 or 4 ba
 # RESISTOR IN SERIES
 
 Resistors are said to be in series whenever the current flows through the resistors sequentially. Since there is only one path for the charges to flow through, the current is the same through each resistor. The equivalent resistance of a set of resistors in a series connection is equal to the algebraic sum of the individual resistances.
+
 ![ResistorSeries](https://github.com/sourav090998/260254-PROJECT/blob/64a75a6e80cf242a7cb99f4a5505dd84fe7b4028/5_Images/73a758786a5224023b41e2edb65ab48c9af171f0.jfif)
+
 ![ResistorInSeries](https://github.com/sourav090998/260254-PROJECT/blob/334af3243225499b1b2c561ee61d372ecc99e50f/5_Images/series%20eqn.svg)
 
 # RESISTOR IN PARALLEL
 
-![ResistorInParallel]()
+Resistors are in parallel when one end of all the resistors are connected by a continuous wire of negligible resistance and the other end of all the resistors are also connected to one another through a continuous wire of negligible resistance. The potential drop across each resistor is the same. Current through each resistor can be found using Ohm’s law I=V/R, where the voltage is constant across each resistor
+
+![ResistorParallel](https://github.com/sourav090998/260254-PROJECT/blob/e8405045a2672d76924329398102c3da32348c46/5_Images/parallel.jfif)
+
+![ResistorInParallel](https://github.com/sourav090998/260254-PROJECT/blob/e8405045a2672d76924329398102c3da32348c46/5_Images/res%20parallel.svg)
