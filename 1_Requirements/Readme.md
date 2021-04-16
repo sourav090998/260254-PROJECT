@@ -14,7 +14,7 @@
 ## Flow Chart   
 ![FLOW CHART](https://github.com/sourav090998/260254-PROJECT/blob/e5cfef1580c96ef8358a262bfaa4e535201b43a5/Requirements/flowchart.png)
 ## SWOT ANALYSIS
-![SWOT Analysis](https://github.com/280439/stepInproject/blob/main/1_Requirements/swot.png)
+![SWOT Analysis](https://github.com/sourav090998/260254-PROJECT/blob/ce6dcf722c0c9cc42fb4fbf05dd34e287778fa23/1_Requirements/Untitled%20Workspace.png)
 
 # 4W&#39;s and 1&#39;H
 ## Who:
