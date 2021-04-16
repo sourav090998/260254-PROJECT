@@ -1,3 +1,11 @@
+/**
+* @file         rescal.c
+* @brief        Resistor Calculation
+* @detail       This program is used to calculate the resistor color code and also calculate the series and parallel resistance of a combination
+* @author       Sourav Sahoo
+* @include      greetings.h
+*/
+
 #include"stdio.h"
 #include"greetings.h"
 
@@ -16,8 +24,6 @@ float codeFour;
 double r1,r2;
 
 //functions
-void greeting();
-
 void serpal();
 void sercal();
 void paracal();
